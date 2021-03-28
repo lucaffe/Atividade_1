@@ -1,0 +1,25 @@
+	algoritmo FioRoloEavulso;
+	
+	principal
+	
+	inteiro num1;
+	inteiro num2;
+	inteiro quoc;
+	inteiro resto;
+	
+	escreval("Digite quantos metros de fio no total: ");
+	leia(num1);
+	
+
+	num2 = 50;
+	
+	quoc = num1 \ num2 ;
+	resto = num1 mod num2 ;
+
+	escreval(" ");
+	escreval(" ");
+	escreval("Metros de fio total: " + num1);
+	escreval("Rolos de fio = " + quoc);
+	escreval("Metros de fio avulso = " + resto);
+	
+	fimPrincipal

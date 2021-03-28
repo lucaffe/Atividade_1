@@ -1,0 +1,25 @@
+	algoritmo calcular_media_aritm;
+	
+	principal
+	
+	real num1;
+	real num2;
+	real num3;
+	real media;
+	
+	escreval("Calcular Média aritmética de 3 números");
+	
+	escreval("Digite o 1° número: ");
+	leia(num1);
+	
+	escreval("Digite o 2° número: ");
+	leia(num2);
+	
+	escreval("Digite o 3° número: ");
+	leia(num3);
+	
+	media = (num1 + num2 + num3) / 3;
+	
+	escreval("A média aritmética de " + num1 + "  " + num2 + "  " + num3 + "  = " + media);
+
+fimPrincipal

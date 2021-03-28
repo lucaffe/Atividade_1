@@ -1,0 +1,37 @@
+	algoritmo DadosFuncionario;
+	
+	principal
+	
+	texto nome, sexo, matricula;
+	real vph, salario, htrab;
+	
+	
+	escreva("Seu nome: ");
+    leia(nome);
+	
+	escreva("Seu sexo: ");
+    leia(sexo);
+	
+	escreva("Sua matricula: ");
+    leia(matricula);
+	
+	escreva("Seu número de horas trabalhadas: ");
+    leia(htrab);
+	
+	escreva("R$ por hora trabalhada: ");
+    leia(vph);
+	
+	salario = htrab * vph;
+
+	escreval (" ");
+	escreval (" ");
+	escreval (" ");
+	escreval (" ");
+	escreval ("Nome: " + nome);
+	escreval ("Sexo: " + sexo);
+	escreval ("Matricula: " + matricula);
+	escreval ("Número de horas trabalhadas: " + htrab);
+	escreval ("Valor que recebe por hora: " + vph);
+	escreval ("Salário: " + salario);
+	
+	fimPrincipal

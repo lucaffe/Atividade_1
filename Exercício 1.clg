@@ -1,0 +1,21 @@
+	algoritmo converter_hora_minseg;
+
+	principal
+
+	inteiro horas, minutos, segundos, result, result2;
+	
+	
+	escreva("Digite a quantidade de horas: ");
+	leia(horas);
+	
+	
+	minutos = 60;
+	segundos = 60;
+
+	result = horas * minutos ;
+	result2 = horas * minutos * segundos ;
+	
+	
+	escreva ( horas + " horas é igual a " + result + " minutos" + " ou " + result2 + " segundos ");
+	
+	fimPrincipal 

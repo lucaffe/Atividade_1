@@ -1,0 +1,24 @@
+	algoritmo MediaComPeso;
+	
+	principal
+	
+	real notaA;
+	real notaB;
+	real peso1;
+	real peso2;
+	real media;
+	
+    escreval("Use ponto em vem de vírgula ");
+	escreva("Digite a 1° nota: ");
+	leia(notaA);
+	escreva("Digite a 2° nota: ");
+	leia(notaB);
+
+	peso1 = 3.5;
+    peso2 = 7.5;
+
+    media = (notaA * 3.5 + notaB * 7.5) / 11;
+
+    escreval("A média do aluno é: " + media);
+
+    fimPrincipal

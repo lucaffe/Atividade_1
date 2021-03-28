@@ -1,0 +1,24 @@
+	algoritmo divisao;
+	
+	principal
+	
+	inteiro num1;
+	inteiro num2;
+	inteiro quoc;
+	inteiro resto;
+	
+	escreval("Digite o dividendo: ");
+	leia(num1);
+	
+	escreval("Digite o divisor: ");
+	leia(num2);
+	
+	quoc = num1 \ num2 ;
+	resto = num1 mod num2 ;
+
+	escreval(" ");
+	escreval(" ");
+	escreval("Dividendo: " + num1);
+	escreval("Divisor: " + num2);
+	escreval("Quociente = " + quoc);
+	escreval("Resto = " + resto);
